@@ -3,7 +3,7 @@ layout: default
 ---
 # Abstract
 
-Abstract goes here asd
+Abstract goes here
 
 # Concept
 Concept goes here
