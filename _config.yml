@@ -1,5 +1,5 @@
-title: Deep Soft Procrustes for Markerless Volumetric Sensor Alignment
-description: Easy to use Depth Sensor Extrinsics Calibration
+title: Deep Soft Procrustes
+description: for Markerless Volumetric Sensor Alignment
 show_downloads: true
 theme: jekyll-theme-cayman
 
@@ -7,3 +7,6 @@ github:
     model_url: https://github.com/VCL3D/StructureNet/releases
     repository_url: https://github.com/VCL3D/StructureNet/
     is_project_page: true
+    repository_name: DeepSoftProcrustes
+    owner_url: https://zokin.github.io
+    owner_name: Nikolaos Zioulis
