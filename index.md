@@ -33,7 +33,8 @@ If you use this code and/or models, please cite the following:
 # Acknowledgements
 This project has received funding from the European Union’s Horizon 2020 innovation programme [Hyper360](https://hyper360.eu/) under grant agreement No 761934.
 
-We would like to thank NVIDIA for supporting our research with GPU donations through the NVIDIA GPU Grant Program.
+ We would like to thank NVIDIA for supporting our research with GPU donations through the NVIDIA GPU Grant Program.
 
+![eu](./assets/images/eu.png){:width="150px"} ![h360](./assets/images/h360.png){:width="150px"} ![nvidia](./assets/images/nvidia.jpg){:width="150px"}
 # Contact
 Please direct any questions related to the code & models to vladster “at” iti “dot” gr or post an issue to the code [repo](https://github.com/VCL3D/StructureNet).
