@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Deep Soft Procrustes for Markerless Volumetric Sensor Alignment
+description: Easy to use Depth Sensor Extrinsics Calibration
 ---
 # Abstract
 
