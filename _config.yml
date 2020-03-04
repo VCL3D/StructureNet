@@ -2,3 +2,8 @@ title: Deep Soft Procrustes for Markerless Volumetric Sensor Alignment
 description: Markerless Depth Sensor Extrinsic Calibration
 show_downloads: true
 theme: jekyll-theme-cayman
+
+github:
+    model_url: https://github.com/VCL3D/StructureNet/releases
+    repository_url: https://github.com/VCL3D/StructureNet/
+    is_project_page: true
