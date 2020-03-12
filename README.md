@@ -12,6 +12,7 @@ Easy to use Depth Sensor Extrinsics Calibration
 # Installation
 (New python enviroment is highly recommended)
 - Install required packages with `pip install -r requirements.txt`
+**Only for training**
 - Install [tinyobjloader](https://github.com/tinyobjloader/tinyobjloader) by cloning/downloading this repository, navigate to python folder and run `python setup.py install`
 - Install our custom patch for disabling multisampling in pyrender
   - Download [UnixUtils](https://sourceforge.net/projects/unxutils/files/latest/download) and add the executable to path
@@ -23,5 +24,25 @@ Easy to use Depth Sensor Extrinsics Calibration
 We provide a pretrained model [here](https://drive.google.com/open?id=1JRQ6VQoPyQSPx3te3LX3MHIRwSYI1_fJ) for inference purposes.
 
 # Inference
-In order to run our code, a pretrained model must be present either from a training or it can be downloaded [here](#download-the-model)
+In order to run our code, a pretrained model must be present either from a training or it can be downloaded [here](#download-the-model).
+Once every requirement is installed, simply rum `python inference.py [options...]`
+
+**Important options**
+
+`--input_path` : directory which contains depthmaps (in .pgm format)
+
+`--output_path` : directory where results will be saved
+
+`--scale` : multiplication factor that converts depthmap data to meters
+
+`--saved_params_path` : path to the downloaded model
+
+In order to see all available options with a brief description, please execute `python inference.py -h`
+
+# Training
+In order to train our model from scratch, one has to download backgrounds that are used in training time for augmentation.
+**TBD: upload and add links**.
+Once every requirement is installed and backgrounds are downloaded, it is time to train our model.
+Execute `python main.py -h` to see all available options.
+
 
