@@ -1,0 +1,7 @@
+tqdm==4.35.0
+visdom==0.1.8.8
+opencv-python==4.2.0.32
+trimesh==2.38.40
+pyrender==0.1.28
+mgen==1.2.0
+shapely
