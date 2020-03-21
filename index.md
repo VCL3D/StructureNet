@@ -13,6 +13,8 @@ Their wider adoption though depends on their usability and by extension on the p
 
 <iframe width="690" height="420" src="https://www.youtube.com/embed/0l5neSMt-2Y" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+# Volumetric Capture
+Our volumetric multi-sensor alignment method is integrated in VCL's [Volumetric Capture](https://vcl3d.github.io/VolumetricCapture/) system and can successfully align multiple heterogeneous sensors (_i.e._ Intel Realsense D415 and Microsoft Kinect Azure).
 
 # Concept
 Concept goes here
