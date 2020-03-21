@@ -23,10 +23,11 @@ Concept goes here
 If you use this code and/or models, please cite the following:
 ```
 @inproceedings{sterzentsenko2020deepsoftprocrustes,
-  author       = "Vladimiros Sterzentsenko and Alexandros Doumanoglou and Spyridon Thermos and Nikolaos Zioulis and and Dimitrios Zarpalas and Petros Daras",
-  title        = "Deep Soft Procrustes for Markerless Volumetric Sensor Alignment",
-  booktitle    = "IEEE VR",
-  year         = "2020"
+  title={Deep Soft Procrustes for Markerless Volumetric Sensor Alignment},
+  author={Vladimiros Sterzentsenko and Alexandros Doumanoglou and Spyridon Thermos and Nikolaos Zioulis and and Dimitrios Zarpalas and Petros Daras},
+  booktitle={2020 IEEE Conference on Virtual Reality and 3D User Interfaces (VR)},
+  year={2020},
+  organization={IEEE}
 }
 ```
 
