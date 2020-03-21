@@ -1,7 +1,7 @@
 # Deep Soft Procrustes for Markerless Volumetric Sensor Alignment
 Easy to use Depth Sensor Extrinsics Calibration
 
-[Paper Page](https://vcl3d.github.io/StructureNet/)
+[Project Page](https://vcl3d.github.io/StructureNet/)
 ~~[Paper]~~
 ~~[Supplementary Material]~~
 
