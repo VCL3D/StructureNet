@@ -20,7 +20,9 @@ Information about its use can be found in the corresponding [Wiki](https://githu
 
 
 # Concept
+<p align="center">
 <img src="./assets/images/concept.png" width="450" title="StructureNet Concept" alt="Our structure-based multi-sensor volumetric alignment concept."/>
+</p>
 
 We use a single volumetric structure easily assembled by commodity packaging boxes to establish correspondences between sensors imaging it from various viewpoints.
 Our approach is fully geometric using only depth information acquired by each sensor and structurally labelling all boxes sides.
