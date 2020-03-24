@@ -26,14 +26,15 @@ The deep soft Procrustes analysis enables end-to-end geometric supervision for a
 
 
 # Publication
-![paper](./assets/images/paper.png)
-# Authors
+<a href="https://arxiv.org/pdf/2003.10176.pdf"><img src="./assets/images/paper.png" width="900" title="arXiv paper link" alt="arXiv"/></a>
+
+
+## Authors
 [Vladimiros Sterzentsenko](https://github.com/vladsterz) __\*__, [Alexandros Doumanoglou](https://github.com/aldoumiti) __\*__, [Spyridon Thermos](https://github.com/spthermo), [Nikolaos](https://github.com/zokin) [Zioulis](https://github.com/zuru), [Dimitrios Zarpalas](https://www.iti.gr/iti/people/Dimitrios_Zarpalas.html), and [Petros Daras](https://www.iti.gr/iti/people/Petros_Daras.html)
 
 [Visual Computing Lab (VCL)](https://vcl.iti.gr)
 
-
-# Citation
+## Citation
 If you use this code and/or models, please cite the following:
 ```
 @inproceedings{sterzentsenko2020deepsoftprocrustes,
@@ -44,7 +45,6 @@ If you use this code and/or models, please cite the following:
   organization={IEEE}
 }
 ```
-
 
 # Acknowledgements
 This project has received funding from the European Union’s Horizon 2020 innovation programme [Hyper360](https://hyper360.eu/) under grant agreement No 761934.
