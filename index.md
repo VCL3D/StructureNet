@@ -20,6 +20,13 @@ Information about its use can be found in the corresponding [Wiki](https://githu
 
 
 # Concept
+![concept](./assets/images/concept.png)
+We use a single volumetric structure easily assembled by commodity packaging boxes to establish correspondences between sensors imaging it from various viewpoints.
+Our approach is fully geometric using only depth information acquired by each sensor and structurally labelling all boxes sides.
+Each side's centroid represents a 3D correspondence with a virtual structure that serves as a global anchor for all views.
+This enables a quick initial alignment that can be further refined through a global optimization step.
+Our multi-sensor volumetric alignment method can successfully align multiple (we've tested 3 to 16) depth sensors and since our was trained to be sensor agnostic, it can adapt to different sensing technologies and even combine heterogeneous sensor types.
+
 ![img](./assets/images/procrustes.png)
 The deep soft Procrustes analysis enables end-to-end geometric supervision for a semantic segmentation model.  On the first row, the corresponding tensor operations are depicted. Starting from a light blue W×H×K tensor P containing each of the K classes’ probabilities and the gray 3×W×H vertices tensor V obtained by de-projecting the input depthmap, we establish soft correspondences as follows: i) we multiply the tensors P and V after expanding – or otherwise, broadcasting – V to 3×W×H×K ; ii )the resulting 3×W×H×K light green tensor  is reduced via a mean operation across the spatial dimensions W and H, resulting to the orange 3×K tensor C containing the softcorrespondences’ 3D coordinates; iii) after masking with the ground truth labels and performing a SVD operation, the remaining correspondences in the yellow tensor C′ are now aligned and any error function between them can be back-propagated to the semantic segmentation network
 
