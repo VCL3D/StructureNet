@@ -51,4 +51,14 @@ In order to train our model from scratch, one has to download backgrounds that a
 Once every requirement is installed and backgrounds are downloaded, it is time to train our model.
 Execute `python main.py -h` to see all available options.
 
-
+# Citation
+If you use this code and/or models, please cite the following:
+```
+@inproceedings{sterzentsenko2020deepsoftprocrustes,
+  title={Deep Soft Procrustes for Markerless Volumetric Sensor Alignment},
+  author={Vladimiros Sterzentsenko and Alexandros Doumanoglou and Spyridon Thermos and Nikolaos Zioulis and and Dimitrios Zarpalas and Petros Daras},
+  booktitle={2020 IEEE Conference on Virtual Reality and 3D User Interfaces (VR)},
+  year={2020},
+  organization={IEEE}
+}
+```
