@@ -38,11 +38,7 @@ Our multi-sensor volumetric alignment method can successfully align multiple (we
 The deep soft Procrustes analysis enables end-to-end geometric supervision for a semantic segmentation model.  On the first row, the corresponding tensor operations are depicted. Starting from a light blue W×H×K tensor P containing each of the K classes’ probabilities and the gray 3×W×H vertices tensor V obtained by de-projecting the input depthmap, we establish soft correspondences as follows: i) we multiply the tensors P and V after expanding – or otherwise, broadcasting – V to 3×W×H×K ; ii )the resulting 3×W×H×K light green tensor  is reduced via a mean operation across the spatial dimensions W and H, resulting to the orange 3×K tensor C containing the softcorrespondences’ 3D coordinates; iii) after masking with the ground truth labels and performing a SVD operation, the remaining correspondences in the yellow tensor C′ are now aligned and any error function between them can be back-propagated to the semantic segmentation network
 
 # Results
-![one](assets/images/snapshot00.png) ![two](assets/images/snapshot01.png)
-
-![three](assets/images/snapshot02.png) ![four](assets/images/snapshot03.png)
-
-
+<img src="assets/images/snapshot00.png" width="24%"> <img src="assets/images/snapshot01.png" width="24%"> <img src="assets/images/snapshot02.png" width="24%"> <img src="assets/images/snapshot03.png" width="24%">
 
 # Publication
 <a href="https://arxiv.org/pdf/2003.10176.pdf"><img src="./assets/images/paper.png" width="900" title="arXiv paper link" alt="arXiv"/></a>
