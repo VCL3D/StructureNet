@@ -9,10 +9,7 @@ An easy to use depth sensor extrinsics calibration method. It is integrated and 
 
 With the advent of consumer grade depth sensors, low-cost volumetric capture systems are easier to deploy. Their wider adoption though depends on their usability and by extension on the practicality of spatially aligning multiple sensors. Most existing alignment approaches employ visual patterns, e.g. checkerboards, or markers and require high user involvement and technical knowledge. More user-friendly and easier-to-use approaches rely on markerless methods that exploit geometric patterns of a physical structure. However, current SoA approaches are bounded by restrictions in the placement and the number of sensors. In this work, we improve markerless data-driven correspondence estimation to achieve more robust and flexible multi-sensor spatial alignment. In particular, we incorporate geometric constraints in an end-to-end manner into a typical segmentation based model and bridge the intermediate dense classification task with the targeted pose estimation one. This is accomplished by a soft, differentiable procrustes analysis that regularizes the segmentation and achieves higher extrinsic calibration performance in expanded sensor placement configurations, while being unrestricted by the number of sensors of the volumetric capture system. Our model is experimentally shown to achieve similar results with marker-based methods and outperform the markerless ones, while also being robust to the pose variations of the calibration structure.
 
-![one](data/snapshot00.png) ![two](data/snapshot01.png) 
-
-![three](data/snapshot02.png)  ![four](data/snapshot03.png)
-
+<img src="data/snapshot00.png" width="24%"> <img src="data/snapshot01.png" width="24%"> <img src="data/snapshot02.png" width="24%"> <img src="data/snapshot03.png" width="24%">
 
 ## Requirements
 - Python 3.6.7
