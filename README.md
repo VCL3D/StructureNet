@@ -31,7 +31,7 @@ With the advent of consumer grade depth sensors, low-cost volumetric capture sys
   - Execute `patch.exe -u <path_to camera.py>  pyrender_patch/camera.diff`
 
 ## Download the model
-We provide a pretrained model [here](https://drive.google.com/open?id=1JRQ6VQoPyQSPx3te3LX3MHIRwSYI1_fJ) for inference purposes.
+We provide a pretrained model [here](https://drive.google.com/file/d/1e3nZRYTsNRD1Nn8_48tpFTmYa4EZdraz) for inference purposes.
 
 ## Inference
 In order to run our code, a pretrained model must be present either from a training or it can be downloaded [here](#download-the-model).
