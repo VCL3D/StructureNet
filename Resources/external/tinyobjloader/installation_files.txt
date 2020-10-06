@@ -1,9 +1,0 @@
-c:\python37\lib\site-packages\tinyobjloader-0.1-py3.7-win-amd64.egg\tinyobjloader.cp37-win_amd64.pyd
-c:\python37\lib\site-packages\tinyobjloader-0.1-py3.7-win-amd64.egg\tinyobjloader.py
-c:\python37\lib\site-packages\tinyobjloader-0.1-py3.7-win-amd64.egg\EGG-INFO\dependency_links.txt
-c:\python37\lib\site-packages\tinyobjloader-0.1-py3.7-win-amd64.egg\EGG-INFO\native_libs.txt
-c:\python37\lib\site-packages\tinyobjloader-0.1-py3.7-win-amd64.egg\EGG-INFO\not-zip-safe
-c:\python37\lib\site-packages\tinyobjloader-0.1-py3.7-win-amd64.egg\EGG-INFO\PKG-INFO
-c:\python37\lib\site-packages\tinyobjloader-0.1-py3.7-win-amd64.egg\EGG-INFO\SOURCES.txt
-c:\python37\lib\site-packages\tinyobjloader-0.1-py3.7-win-amd64.egg\EGG-INFO\top_level.txt
-c:\python37\lib\site-packages\tinyobjloader-0.1-py3.7-win-amd64.egg\__pycache__\tinyobjloader.cpython-37.pyc

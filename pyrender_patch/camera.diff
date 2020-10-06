@@ -1,0 +1,11 @@
+--- E:\PyEnvs\env\Lib\site-packages\pyrender\camera_original.py	Wed Jun 26 16:18:23 2019
++++ E:\PyEnvs\env\Lib\site-packages\pyrender\camera.py	Wed Jun 26 16:21:35 2019
+@@ -332,6 +332,8 @@
+         If not specified, defaults to 100.0.
+     name : str, optional
+         The user-defined name of this object.
++	
++	aldoum note: fx,fy not in meters but in pixels. since get camera matrix width/height are in pixels ! verified mathematically about its correctness!
+     """
+ 
+     def __init__(self,

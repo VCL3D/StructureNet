@@ -1,5 +1,0 @@
-i) pip install -r requirements.txt --no-cache-dir
-ii) download https://github.com/vladsterz/tinyobjloader_python_standalone#egg=tinyobjloader
-navigate to "python" directory and run "python setup.py install"
-iii) follow instructions of https://github.com/gabrieleilertsen/hdrcnn/issues/1#issuecomment-349165228
-iv) download https://drive.google.com/open?id=1_SN4kIfJBbhPisl0kIij_S8Cf2vW_lQK and place it under Resources/data

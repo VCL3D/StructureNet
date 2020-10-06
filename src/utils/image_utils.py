@@ -13,15 +13,6 @@ def random_crop_and_scale_to_fit_target(src_img : np.array, target_width : int, 
     img_height = src_img.shape[0]
     img_width = src_img.shape[1]
 
-    # cropped width  cw = s * target_width, s scalar unknown
-    # cropeed height ch = s * target_height, same s to maintain aspect ratio
-    # maximize s so that cw and ch are within target image limits
-
-    # 0 <= cw <= src_img_w
-    # 0 <= ch <= src_img_h
-    # 0 <= s * target_width <= src_img_w
-    # 0 <= s * target_height <= src_img_h
-    # s = min(src_img_w/target_width, src_img_h / target_height)
     
     s = np.min([float(img_width) / float(target_width), float(img_height) / float(target_height)])
 
@@ -158,11 +149,7 @@ def colorize_label_map(lmap : np.array, colors: list) -> np.array:
         for x in range(lmap.shape[1]):
             label =lmap[y,x]
             # open cv default is bgr
-            outlmap [y,x,:] = [colors[label] & 0xFF, (colors[label] & 0xFF00) >> 8, (colors[label] & 0xFF0000) >> 16]
-            #outlmap [y,x,:] = [(colors[label] & 0xFF0000) >> 16, (colors[label] & 0xFF00) >> 8, colors[label] & 0xFF]   
-
-    #for label in range(len(colors)):
-    #    outlmap [lmap == label,:] = [(colors[label] & 0xFF0000) >> 24, (colors[label] & 0xFF00) >> 16, colors[label] & 0xFF]
+            outlmap [y,x,:] = [colors[label] & 0xFF, (colors[label] & 0xFF00) >> 8, (colors[label] & 0xFF0000) >> 16]  
 
     return outlmap
 
