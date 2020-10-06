@@ -1,0 +1,8 @@
+README.md
+bindings.cc
+setup.py
+tiny_obj_loader.cc
+tinyobjloader.egg-info/PKG-INFO
+tinyobjloader.egg-info/SOURCES.txt
+tinyobjloader.egg-info/dependency_links.txt
+tinyobjloader.egg-info/top_level.txt
