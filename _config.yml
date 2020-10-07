@@ -4,7 +4,7 @@ show_downloads: true
 theme: jekyll-theme-cayman
 
 github:
-    model_url: https://github.com/VCL3D/StructureNet/
+    model_url: https://github.com/VCL3D/StructureNet/_layouts
     repository_url: https://github.com/VCL3D/StructureNet/
     is_project_page: true
     repository_name: DeepSoftProcrustes
