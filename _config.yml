@@ -1,7 +1,7 @@
 title: Deep Soft Procrustes
 description: for Markerless Volumetric Sensor Alignment
 show_downloads: true
-theme: jekyll-theme-architect #jekyll-theme-cayman
+theme: jekyll-theme-cayman
 
 github:
     model_url: https://github.com/VCL3D/StructureNet/releases
