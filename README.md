@@ -39,7 +39,7 @@ Once every requirement is installed, simply rum `python inference.py [options...
 
 **Important options**
 
-`--input_path` : directory which contains depthmaps (in .pgm format)
+`--input_path` : directory which contains depthmaps (in .pgm format) (see [example of input data](./example) )
 
 `--output_path` : directory where results will be saved
 
