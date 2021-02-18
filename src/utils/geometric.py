@@ -2,8 +2,13 @@ import torch
 from src.utils import projections
 from src.io import box_model_loader, plywrite
 from src.dataset.rendering.box_renderer import BoxRenderFlags
+from enum import Flag, auto
 #import .projections
-output_path = "D:\\VCL\\Users\\vlad\\Datasets\\structureNetData\\output_structurenet"
+class BoxRenderFlags (Flag):    
+    LABEL_UP_AS_BACKGROUND = auto()
+    LABEL_DOWN_AS_BACKGROUND = auto()
+    LABEL_TOP_AND_BOTTOM_AS_BACKGROUND = LABEL_UP_AS_BACKGROUND | LABEL_DOWN_AS_BACKGROUND
+
 import os.path as osp
 '''
 Given two sets (set1 and set2 with dimensions b,c,N [b:batch,c:channels,N:spatial])
@@ -73,7 +78,7 @@ def computeNonRigidTransformation(
 
     R = torch.cat(list_R, dim = 0)
     scale = torch.cat(list_scale, dim = 0).unsqueeze(-1)
-    t = -torch.bmm(R,centroid_source)*scale + centroid_target
+    t = -torch.bmm(R,centroid_source) + centroid_target
     return R, t, scale
     
 '''
