@@ -55,6 +55,10 @@ In order to train our model from scratch, one has to download backgrounds that a
 Once every requirement is installed and backgrounds are downloaded, it is time to train our model.
 Execute `python main.py -h` to see all available options.
 
+# Video explaining our method, accompanying our submission to IEEEVR 2020
+
+https://www.youtube.com/watch?v=0l5neSMt-2Y
+
 # Citation
 If you use this code and/or models, please cite the following:
 ```
